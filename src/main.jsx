@@ -8,30 +8,21 @@ import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Service from './components/Services/Service.jsx';
 
-const router = createBrowserRouter([
-  {
-    path : 'reactporfolio',
-    element : <Layout />,
-    children : [
-      {
-        path : '',
-        element : <Home />
-      },
-      {
-        path : 'about',
-        element : <About />
-      },
-      {
-        path : 'service',
-        element : <Service />
-      },
-      {
-        path : 'contact',
-        element : <Contact />
-      }
-    ]
-  }
-])
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        { path: '', element: <Home /> },
+        { path: 'about', element: <About /> },
+        { path: 'service', element: <Service /> },
+        { path: 'contact', element: <Contact /> }
+      ]
+    }
+  ],
+  { basename: '/ayushportfolio' } // Add this line
+);
 
 
 createRoot(document.getElementById('root')).render(
