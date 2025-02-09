@@ -1,6 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Contact() {
+
+  useEffect(() => {
+    if (performance.navigation.type === 1) {
+        window.location.href = "https://aayus-2003.github.io/ayushportfolio/";
+    }
+}, []);
+
   const [isSubmitted, setIsSubmitted] = useState(false); // State to manage the popup visibility
   const [error, setError] = useState(null); // State to handle errors
 
