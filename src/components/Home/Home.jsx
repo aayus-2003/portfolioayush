@@ -33,42 +33,42 @@ const Home = () => {
       title: "dummy Google",
       description: "google website clone.",
       image: mygoogle,
-      url: "/projects/javascript/3"
+      url: "https://aayus-2003.github.io/myGoogle/"
     },
     {
       id: 4,
       title: "todoList",
       description: "add some todo for your , helpfull webApp for you .",
       image: todolist,
-      url: "/projects/javascript/4"
+      url: "https://aayus-2003.github.io/todoList/"
     },
     {
       id: 5,
       title: "jokeGenrator",
       description: "joke Genrator with html, css and JavaScript.",
       image: jokeimg,
-      url: "/projects/javascript/5"
+      url: "https://aayus-2003.github.io/jokeGenrator/"
     },
     {
       id: 6,
       title: "setIntervalClock",
       description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       image: clock,
-      url: "/projects/javascript/6"
+      url: "https://aayus-2003.github.io/Clock/"
     },
     {
       id: 7,
       title: "ticTacToe",
       description: "Tic Tac Toe | Educational Games for Kids | Toy Theater This classic game contributes to children's developmental growth",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqVeYo-7dmDBKZoD3VIHlPZFkp_0mDHzOACA&usqp=CAU",
-      url: "/projects/javascript/7"
+      url: "https://aayus-2003.github.io/ticTacToe/"
     },
     {
       id: 8,
       title: "ApiApp : 2",
       description: "downlode naruto series from here.",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBvk_SZws309cRLWn6wJidU46A_klr5X62Q&usqp=CAU",
-      url: "/projects/javascript/8"
+      url: "https://aayus-2003.github.io/narutoWithApi/"
     }
   ];
 
