@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       ]
     }
   ],
-  { basename: '/ayushportfolio' } 
+  { basename: '/portfolioayush' } 
 );
 
 
