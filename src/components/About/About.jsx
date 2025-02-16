@@ -1,13 +1,6 @@
 import React, { useEffect } from 'react';
 
-export default function About() {
-
-    useEffect(() => {
-        if (performance.navigation.type === 1) {
-            window.location.href = "https://aayus-2003.github.io/ayushportfolio/";
-        }
-    }, []);
-    
+export default function About() { 
 
     return (
         <div className="py-16 bg-gray-100">
