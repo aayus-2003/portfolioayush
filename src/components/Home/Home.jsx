@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import banner from '../../../img2/banner.webp'
-import downlode from '../../../img/react/download.jpeg'
-import passgenrator from '../../../img/react/passgenrator.jpeg'
-import bgchanger from '../../../img/react/bgchanger.jpeg'
-import calsi from '../../../img/js/calsi.png'
-import fliplogo from '../../../img/js/fliplogo.jpg'
-import mygoogle from '../../../img/js/mygoogle.jpeg'
-import todolist from '../../../img/js/todoist-new-logo-red.webp'
-import jokeimg from '../../../img/js/jokeJs.jpeg'
-import clock from '../../../img/js/clock.jpeg'
+import banner from '../../../img2/banner.webp';
+import downlode from '../../../img/react/download.jpeg';
+import passgenrator from '../../../img/react/passgenrator.jpeg';
+import bgchanger from '../../../img/react/bgchanger.jpeg';
+import calsi from '../../../img/js/calsi.png';
+import fliplogo from '../../../img/js/fliplogo.jpg';
+import mygoogle from '../../../img/js/mygoogle.jpeg';
+import todolist from '../../../img/js/todoist-new-logo-red.webp';
+import jokeimg from '../../../img/js/jokeJs.jpeg';
+import clock from '../../../img/js/clock.jpeg';
 
 const Home = () => {
   const jsProjects = [

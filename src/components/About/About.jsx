@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import AboutImage from '/about.png';
 
 export default function About() { 
 
@@ -8,7 +9,7 @@ export default function About() {
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
                         <img
-                            src="about.png"
+                            src={AboutImage}
                             alt="About Ayush"
                             className="rounded-lg shadow-lg"
                         />
