@@ -11,10 +11,11 @@ import mygoogle from '../../../img/js/mygoogle.jpeg';
 import todolist from '../../../img/js/todoist-new-logo-red.webp';
 import jokeimg from '../../../img/js/jokeJs.jpeg';
 import clock from '../../../img/js/clock.jpeg';
+import CropImg from '/crop.png'
 
 const Home = () => {
   const jsProjects = [
-    {
+    { 
       id: 1,
       title: "calsiWithJs",
       description: "My Portfolio WebSite with Html, css, boostarp",
@@ -98,26 +99,42 @@ const Home = () => {
 
   // New Live Projects Array (3 Items)
   const liveProjects = [
+   
     {
       id: 1,
+      title: "Saakaar Architects : Website",
+      description: "Revamped and modernized the Saakaar Architects website to enhance user experience, improve performance, and showcase their architectural designs with a fresh, responsive design.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0s2pex3yakL9VLe19oKe9qwp4fYUacdpLA&s",  // Placeholder image
+      url: "https://www.saakaar.co.in/"
+    },
+    ,
+     {
+      id: 2,
+      title: "TradingBrain4U – Smart Trading Management Platform",
+      description: "A powerful web platform with dedicated dashboards for Admin, Agents, and Users. Paid users get exclusive access to real-time trading analytics and management tools.",
+      image: 'https://www.crmcallservices.com/app/uploads/2021/06/Customer-Relationship-Management.jpg',  
+      url: "https://managementtradingbrain4u.com/"
+    },
+    {
+      id: 3,
       title: "CoinPayWays – Cryptocurrency Payment Platform",
       description: "A secure and efficient platform for accepting cryptocurrency payments. Simplifying digital currency transactions for businesses.",
       image: banner,  
       url: "https://coinpayways.com"
     },
     {
-      id: 2,
+      id: 4,
       title: "Indian Chess School : Website",
       description: "A comprehensive platform offering chess lessons, resources, and training for all skill levels. Empowering students to master the game with expert guidance and structured courses.",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQ90v3qkdafCuq8IEHU1DSBrgBaPbvlPBWA&s",  // Placeholder image
       url: "https://indianchessschool.com/"
     },
     {
-      id: 3,
-      title: "Saakaar Architects : Website",
-      description: "Revamped and modernized the Saakaar Architects website to enhance user experience, improve performance, and showcase their architectural designs with a fresh, responsive design.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0s2pex3yakL9VLe19oKe9qwp4fYUacdpLA&s",  // Placeholder image
-      url: "https://www.saakaar.co.in/"
+      id: 5,
+      title: "Banknifty Pro – Smart Finance & Trading Insights",
+      description: "A premium platform for BankNifty traders, offering real-time market analysis, trading insights, and powerful financial tools for smarter decisions.",
+      image: CropImg,  // Placeholder image
+      url: "https://www.bankniftypros.in/"
     }
   ];
 
