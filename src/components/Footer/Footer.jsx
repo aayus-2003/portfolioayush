@@ -36,7 +36,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="#"
+                                        href="https://github.com/aayus-2003"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -45,8 +45,8 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
+                                    <Link to="https://www.linkedin.com/in/ayush-goregaonkar/" className="hover:underline">
+                                        linkdin
                                     </Link>
                                 </li>
                             </ul>

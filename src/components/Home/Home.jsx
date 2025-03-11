@@ -152,7 +152,7 @@ const Home = () => {
       title: "Prince Gupta - Portfolio Website: Created a sleek and responsive portfolio website to showcase",
       description: "Prince Gupta's skills and projects with a modern design and user-friendly interface.",
       image: "https://ezahn47ugtf.exactdn.com/wp-content/uploads/2022/05/portfolio-book-creation-scaled.jpg?strip=all&lossy=1&ssl=1",  // Placeholder image
-      url: "https://princegupta00.github.io/portfolioWebsite/"
+      url: "https://princegupta00.github.io/princeportfolio/"
     },
     {
      id: 3,
